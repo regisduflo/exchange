@@ -8,7 +8,7 @@ public String getApplicationVersion() throws Exception {
 
 private static Model getPomModel() throws Exception {
 	MavenXpp3Reader aPOMReader = new MavenXpp3Reader();
-	return aPOMReader.read(InfoService.class.getClassLoader().getResourceAsStream("META-INF/maven/com.cacib.ccc/reporting-service-backend/pom.xml"));
+	return aPOMReader.read(InfoService.class.getClassLoader().getResourceAsStream("META-INF/maven/xxxx/reporting-service-backend/pom.xml"));
 }
 ###############################################################
 SpringBootActuator
